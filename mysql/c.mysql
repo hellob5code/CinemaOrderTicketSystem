@@ -1,0 +1,10 @@
+create table 万达影城
+(
+ id int not null primary key auto_increment,
+ 电影名 varchar(24) not null,
+ 上映日期 date not null,
+ 上映时间 time not null,
+ 票价 int not null,
+ 剩余座位 int not null
+)default charset = utf8;
+

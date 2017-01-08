@@ -1,0 +1,1 @@
+insert into UserList(userid,userpasswd,telphone,birthdata) values('wenjian','wenjian','15616172613','1993-10-16');

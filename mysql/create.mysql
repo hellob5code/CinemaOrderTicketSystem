@@ -1,0 +1,26 @@
+create table CinemaList
+(
+ 	id int not null auto_increment primary key,
+ 	name varchar(18) not null,
+ 	address varchar(24),
+	telphone varchar(12)
+)
+default charset=utf8;
+create table UserList
+(
+	id int not null auto_increment primary key,
+	userid varchar(18) not null,
+	userpasswd varchar(12) not null,
+	telphone varchar(12) not null,
+	birthdata date not null
+)
+default charset=utf8;
+create table AdminList
+(
+	id int not null auto_increment primary key,
+	adminid varchar(18) not null,
+	adminpasswd varchar(12) not null,
+	telphone varchar(12) not null,
+	birthdate date not null
+)
+default charset=utf8;

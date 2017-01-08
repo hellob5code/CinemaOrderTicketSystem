@@ -1,0 +1,3 @@
+drop table CinemaList;
+drop table UserList;
+drop table AdminList;
